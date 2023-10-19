@@ -1,0 +1,43 @@
+html {
+    font-size: 10px;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #171717;
+    text-shadow: 2px 4px 1px black; /*horizontal, vertical, blur*/
+    font-size: 60px;
+    text-align: center;
+    color:#0dde02;
+}
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #0dde02;
+}
+a {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: #92ff8c;
+}
+html {
+    background-color: black;
+}
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #171717;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid white;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 30%;
+    max-height: 30%;
+    border: 5px solid #0dde02;
+}
