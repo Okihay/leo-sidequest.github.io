@@ -2,10 +2,10 @@
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/LM_Logo.png") {
-    myImage.setAttribute("src", "images/LM_Logo_glitch.png"); //if source of img is Logo 1, switch to logo 2 on click
+  if (mySrc === "LM_Logo.png") {
+    myImage.setAttribute("src", "LM_Logo_glitch.png"); //if source of img is Logo 1, switch to logo 2 on click
   } else {
-    myImage.setAttribute("src", "images/LM_Logo.png"); //set attribute ; make the image what I specify - > set the source as logo1
+    myImage.setAttribute("src", "LM_Logo.png"); //set attribute ; make the image what I specify - > set the source as logo1
   }
 };
 
